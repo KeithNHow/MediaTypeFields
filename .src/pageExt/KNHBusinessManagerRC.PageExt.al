@@ -11,7 +11,7 @@ pageextension 53900 "KNH Business Manager RC" extends "Business Manager Role Cen
             {
                 ApplicationArea = All;
                 ToolTip = 'Specifies various media types for use in the system.';
-                Caption = 'Media Type';
+                Caption = 'Media Type Fields';
                 RunObject = page "KNH Media Type";
             }
         }
