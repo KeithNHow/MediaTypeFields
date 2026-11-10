@@ -1,0 +1,56 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${PerTenantExtensionCop}",
+        "${UICop}"
+    ],
+    "[al]": {
+        "editor.wordBasedSuggestions": "allDocuments",
+        "editor.suggestSelection": "first",
+        "editor.formatOnSave": true,
+        "editor.codeLens": true,
+        "editor.semanticHighlighting.enabled": true,
+        "editor.fontSize": 12,
+    },
+    "al.ruleSetPath": "./.vscode/ruleset.json",
+    "al.enableExternalRulesets": true,
+    "al.outputAnalyzerStatistics": true,
+    
+    //AZ AL Dev Tools
+    "alOutline.completionProviders": [],
+    "alOutline.createApiFieldsCaptions": true,
+    "alOutline.addToolTipsToPageFields": true,
+    "alOutline.enableCodeCopFixes": true,
+    "alOutline.namespacesSortOrder": ["System,Microsoft,Other"],
+    "alOutline.codeCleanupActions": [
+        "AddToolTips",
+        "FixKeywordsCase",
+        "FixIdentifiersCase",
+        "SortVariables",
+        "AddApplicationAreas",
+        "SortTableFields",
+        "AddMissingParentheses",
+        "RemoveBeginEnd",
+        "RemoveUnusedVariables"
+    ],
+
+    "al.useVsCodeAuthentication": false,
+    "al.backgroundCodeAnalysis": true,
+    "al.enableCodeActions": true,
+    "al.packageCachePath": "./.alpackages",
+    "al-test-runner.sendDebugTelemetry": false,
+    "al.compilationOptions": {
+        "generateReportLayout": true
+    },
+    
+    "workbench.editor.enablePreview": true, //Prevents unedited files from remaining open
+    "CRS.ObjectNamePrefix": "KNH",
+    //"CRS.OnSaveAlFileAction": "Rename",
+    "CRS.FileNamePattern": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "github.copilot.chat.scopeSelection": true,
+    "d365bc-admin-mcp.settingsScope": "global",
+    "d365bc-admin-mcp.autoInstall": true
+}

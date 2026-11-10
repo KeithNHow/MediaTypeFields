@@ -1,0 +1,32 @@
+{
+  "id": "7bfcad01-e75f-4e4d-b4a9-c29e5ec2f1db",
+  "name": "MediaTypeFields",
+  "publisher": "KeithHow",
+  "version": "29.0.0.0",
+  "brief": "Types of Media Field",
+  "description": "Types of Media Field",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "29.0.0.0",
+  "application": "29.0.0.0",
+  "idRanges": [
+    {
+      "from": 53900,
+      "to": 53949
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "18.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
